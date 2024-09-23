@@ -47,6 +47,8 @@ extern "C" {
 #include "efi/riscv64/efibind.h"
 #elif defined (__loongarch64)
 #include "efi/loongarch64/efibind.h"
+#elif defined (__ia64)
+#include "efi/ia64/efibind.h"
 #else
 #error Unsupported architecture
 #endif
